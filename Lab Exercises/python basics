@@ -1,1 +1,37 @@
+Terminal Installation:  python3 --version
+Create a Virtual Envirnoment:  python3 -m venv COSC310Lab1
+                               source cosc310lab1/bin/activate
+
+Python Project Structure:
+  .env - a text file used for environment variables
+       - keeps secrets/config out of your code
+       - typically uses the dotenv package to access keys inside
+  .gitignore - prevents certain files/folders from being committed to github
+             - typically python cache's, models, virtual environments
+  my_package - holds modules u can use in other parts of your project
+  _init_.py - initializer for grouping multiple modules together
+
+in Python EVERYTHING IS AN OBJECT
+  objects = data + behaviour
+  objects have attributes (data stored inside) and methods (functions that belong to the object)
+
+IF/ELSE
+  if score >= 90:
+    print("Grade: A")
+  elif score >= 80:
+    print("Grade: B")
+  else:
+    print("Keep working!")
+
+LISTS
+  fruits = ["apple", "banana", "cherry"]
+  print(fruits[0])  # apple
+  fruits.append("pear")  # add new item
+
+FUNCTIONS
+- reusable blocks of code
+  def greet(name):
+    return f"Hello, {name}!"
+  print(greet("COSC 310"))
+
 
