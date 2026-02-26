@@ -1,4 +1,4 @@
-"""Authorization API endpoints - Issue 2.
+"""Authorization API endpoints
 
 GET /auth/permissions/{role}         — list all permitted actions for a role.
 GET /auth/authorize/{user_id}/{action} — check whether a user may perform an action.
