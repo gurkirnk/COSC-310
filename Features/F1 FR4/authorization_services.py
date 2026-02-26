@@ -1,4 +1,4 @@
-"""Service layer for Issue 2 - Role-based authorization business logic.
+"""Service layer - Role-based authorization business logic.
 
 Restricts customers and other restaurant owners from editing a restaurant's
 profile by enforcing a role permission mapping on every action attempt.
